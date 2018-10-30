@@ -12,6 +12,16 @@
 		375105952077A0490002759E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 375105932077A0490002759E /* Main.storyboard */; };
 		375105972077A0510002759E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 375105962077A0510002759E /* Assets.xcassets */; };
 		3751059A2077A0510002759E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 375105982077A0510002759E /* LaunchScreen.storyboard */; };
+		376AD90D207B807E00A18EEF /* BasicFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 376AD90B207B807E00A18EEF /* BasicFunctions.swift */; };
+		376AD90E207B807E00A18EEF /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = 376AD90C207B807E00A18EEF /* Config.swift */; };
+		376AD910207B80B200A18EEF /* Strings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 376AD90F207B80B200A18EEF /* Strings.swift */; };
+		376AD913207B83B400A18EEF /* User_API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 376AD912207B83B400A18EEF /* User_API.swift */; };
+		376AD918207B8B1200A18EEF /* APINetworkOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 376AD914207B8B1200A18EEF /* APINetworkOperation.swift */; };
+		376AD919207B8B1200A18EEF /* APIResponseHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 376AD915207B8B1200A18EEF /* APIResponseHandler.swift */; };
+		376AD91A207B8B1200A18EEF /* APIRequestConvertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = 376AD916207B8B1200A18EEF /* APIRequestConvertible.swift */; };
+		376AD91B207B8B1200A18EEF /* APIWebserviceURL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 376AD917207B8B1200A18EEF /* APIWebserviceURL.swift */; };
+		376AD91D207B8B1B00A18EEF /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 376AD91C207B8B1B00A18EEF /* API.swift */; };
+		D90FC46A7E7B59E5F1D2BE2D /* Pods_APIMVCDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E229B20422F397ACAD211624 /* Pods_APIMVCDemo.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +32,18 @@
 		375105962077A0510002759E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		375105992077A0510002759E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3751059B2077A0510002759E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		376AD90B207B807E00A18EEF /* BasicFunctions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BasicFunctions.swift; sourceTree = "<group>"; };
+		376AD90C207B807E00A18EEF /* Config.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
+		376AD90F207B80B200A18EEF /* Strings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Strings.swift; sourceTree = "<group>"; };
+		376AD912207B83B400A18EEF /* User_API.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User_API.swift; sourceTree = "<group>"; };
+		376AD914207B8B1200A18EEF /* APINetworkOperation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APINetworkOperation.swift; sourceTree = "<group>"; };
+		376AD915207B8B1200A18EEF /* APIResponseHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIResponseHandler.swift; sourceTree = "<group>"; };
+		376AD916207B8B1200A18EEF /* APIRequestConvertible.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIRequestConvertible.swift; sourceTree = "<group>"; };
+		376AD917207B8B1200A18EEF /* APIWebserviceURL.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIWebserviceURL.swift; sourceTree = "<group>"; };
+		376AD91C207B8B1B00A18EEF /* API.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
+		99DCCAC1C50FA049553F0873 /* Pods-APIMVCDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-APIMVCDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-APIMVCDemo/Pods-APIMVCDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		CCBA3F63BC0476AB72E6C519 /* Pods-APIMVCDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-APIMVCDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-APIMVCDemo/Pods-APIMVCDemo.release.xcconfig"; sourceTree = "<group>"; };
+		E229B20422F397ACAD211624 /* Pods_APIMVCDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_APIMVCDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +51,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D90FC46A7E7B59E5F1D2BE2D /* Pods_APIMVCDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +63,8 @@
 			children = (
 				3751058E2077A0480002759E /* APIMVCDemo */,
 				3751058D2077A0480002759E /* Products */,
+				F0AB0FB05F93A36B56445995 /* Pods */,
+				B9C2D3DC272F0B87B73820D5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,6 +79,9 @@
 		3751058E2077A0480002759E /* APIMVCDemo */ = {
 			isa = PBXGroup;
 			children = (
+				376AD90A207B7FD400A18EEF /* Constant */,
+				376AD8FB207B7D0D00A18EEF /* API Helpers */,
+				376AD8FA207B7CFC00A18EEF /* API */,
 				3751058F2077A0480002759E /* AppDelegate.swift */,
 				375105912077A0480002759E /* ViewController.swift */,
 				375105932077A0490002759E /* Main.storyboard */,
@@ -64,6 +92,53 @@
 			path = APIMVCDemo;
 			sourceTree = "<group>";
 		};
+		376AD8FA207B7CFC00A18EEF /* API */ = {
+			isa = PBXGroup;
+			children = (
+				376AD91C207B8B1B00A18EEF /* API.swift */,
+				376AD912207B83B400A18EEF /* User_API.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		376AD8FB207B7D0D00A18EEF /* API Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				376AD914207B8B1200A18EEF /* APINetworkOperation.swift */,
+				376AD916207B8B1200A18EEF /* APIRequestConvertible.swift */,
+				376AD915207B8B1200A18EEF /* APIResponseHandler.swift */,
+				376AD917207B8B1200A18EEF /* APIWebserviceURL.swift */,
+			);
+			path = "API Helpers";
+			sourceTree = "<group>";
+		};
+		376AD90A207B7FD400A18EEF /* Constant */ = {
+			isa = PBXGroup;
+			children = (
+				376AD90F207B80B200A18EEF /* Strings.swift */,
+				376AD90B207B807E00A18EEF /* BasicFunctions.swift */,
+				376AD90C207B807E00A18EEF /* Config.swift */,
+			);
+			path = Constant;
+			sourceTree = "<group>";
+		};
+		B9C2D3DC272F0B87B73820D5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E229B20422F397ACAD211624 /* Pods_APIMVCDemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F0AB0FB05F93A36B56445995 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				99DCCAC1C50FA049553F0873 /* Pods-APIMVCDemo.debug.xcconfig */,
+				CCBA3F63BC0476AB72E6C519 /* Pods-APIMVCDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -71,9 +146,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3751059E2077A0510002759E /* Build configuration list for PBXNativeTarget "APIMVCDemo" */;
 			buildPhases = (
+				B8CCBCED924182EB15F4A70C /* [CP] Check Pods Manifest.lock */,
 				375105882077A0480002759E /* Sources */,
 				375105892077A0480002759E /* Frameworks */,
 				3751058A2077A0480002759E /* Resources */,
+				C7D0003B7C05BEA0D340FC05 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -130,12 +207,76 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		B8CCBCED924182EB15F4A70C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-APIMVCDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C7D0003B7C05BEA0D340FC05 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-APIMVCDemo/Pods-APIMVCDemo-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AFDateHelper/AFDateHelper.framework",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/AlamofireImage/AlamofireImage.framework",
+				"${BUILT_PRODUCTS_DIR}/Cartography/Cartography.framework",
+				"${BUILT_PRODUCTS_DIR}/DZNEmptyDataSet/DZNEmptyDataSet.framework",
+				"${BUILT_PRODUCTS_DIR}/HKKit/HKKit.framework",
+				"${BUILT_PRODUCTS_DIR}/MagicalRecord/MagicalRecord.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+				"${BUILT_PRODUCTS_DIR}/netfox/netfox.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFDateHelper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Cartography.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DZNEmptyDataSet.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/HKKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MagicalRecord.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/netfox.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-APIMVCDemo/Pods-APIMVCDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		375105882077A0480002759E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				376AD91D207B8B1B00A18EEF /* API.swift in Sources */,
+				376AD91A207B8B1200A18EEF /* APIRequestConvertible.swift in Sources */,
 				375105922077A0480002759E /* ViewController.swift in Sources */,
+				376AD90E207B807E00A18EEF /* Config.swift in Sources */,
+				376AD919207B8B1200A18EEF /* APIResponseHandler.swift in Sources */,
+				376AD918207B8B1200A18EEF /* APINetworkOperation.swift in Sources */,
+				376AD91B207B8B1200A18EEF /* APIWebserviceURL.swift in Sources */,
+				376AD913207B83B400A18EEF /* User_API.swift in Sources */,
+				376AD90D207B807E00A18EEF /* BasicFunctions.swift in Sources */,
+				376AD910207B80B200A18EEF /* Strings.swift in Sources */,
 				375105902077A0480002759E /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -278,9 +419,11 @@
 		};
 		3751059F2077A0510002759E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 99DCCAC1C50FA049553F0873 /* Pods-APIMVCDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P79GFR2D85;
 				INFOPLIST_FILE = APIMVCDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -295,9 +438,11 @@
 		};
 		375105A02077A0510002759E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CCBA3F63BC0476AB72E6C519 /* Pods-APIMVCDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P79GFR2D85;
 				INFOPLIST_FILE = APIMVCDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

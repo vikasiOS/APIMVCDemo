@@ -1,0 +1,52 @@
+PODS:
+  - AFDateHelper (4.2.7)
+  - Alamofire (4.6.0)
+  - AlamofireImage (3.3.0):
+    - Alamofire (~> 4.5)
+  - Cartography (3.0.1)
+  - DZNEmptyDataSet (1.8.1)
+  - HKKit (3.0.6):
+    - AFDateHelper
+    - Alamofire
+    - AlamofireImage
+    - Cartography
+    - DZNEmptyDataSet
+    - MagicalRecord
+    - SwiftyJSON
+  - MagicalRecord (2.3.2):
+    - MagicalRecord/Core (= 2.3.2)
+  - MagicalRecord/Core (2.3.2)
+  - netfox (1.10.5)
+  - SwiftyJSON (4.0.0)
+
+DEPENDENCIES:
+  - HKKit
+  - netfox
+  - SwiftyJSON
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - AFDateHelper
+    - Alamofire
+    - AlamofireImage
+    - Cartography
+    - DZNEmptyDataSet
+    - HKKit
+    - MagicalRecord
+    - netfox
+    - SwiftyJSON
+
+SPEC CHECKSUMS:
+  AFDateHelper: 4ad66fb19503041fbba8a3018cb7ef9c71b2ff88
+  Alamofire: f41a599bd63041760b26d393ec1069d9d7b917f4
+  AlamofireImage: 2e784dc5d00f04903a52c1d169181469c805c3df
+  Cartography: f8c899bb0f5cf20758644a8eea59a75e98a03a5d
+  DZNEmptyDataSet: 9525833b9e68ac21c30253e1d3d7076cc828eaa7
+  HKKit: f8c4d5d38d1dc9f25c2a38d537e3a4d8cf6fe48a
+  MagicalRecord: 53bed74b4323b930992a725be713e53b37d19755
+  netfox: 597a3436073889c24d0af3a2aac9d73db779ae3a
+  SwiftyJSON: 070dabdcb1beb81b247c65ffa3a79dbbfb3b48aa
+
+PODFILE CHECKSUM: 5b4287fe5f1546f9574fd4dd5baac8cbe2c26745
+
+COCOAPODS: 1.5.0
